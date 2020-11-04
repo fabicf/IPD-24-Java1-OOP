@@ -26,7 +26,7 @@ public class Day03HomeWork218 {
     
     //not finished
            
-        System.out.println("a   b   pow(a,b)");
+        /* System.out.println("a   b   pow(a,b)");
         int a = 1;
         int b = 2;
         System.out.println((int)a + "   " + (int)b + "   " + (int) Math.pow(a, b));
@@ -46,7 +46,16 @@ public class Day03HomeWork218 {
         b++;
         System.out.println(a + "   " + (int)b + "   " +  Math.pow(a, b));
         
+        */
         
+        int a = 1;
+        System.out.println("a   b   pow(a,b)");
+                
+        for (a = 1; a < 6; a++){
+            int b = a + 1;          
+            
+            System.out.println( a + "   " + b + "   " + ((int)Math.pow(a, b)) );
+        }
         
     }
     

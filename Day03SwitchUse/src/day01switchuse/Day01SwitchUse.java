@@ -17,7 +17,7 @@ public class Day01SwitchUse {
     public static void main(String[] args) {
         // Convert letter grade to GPA
         
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Enter your letter grade");
         String letterGrade = input.nextLine();
         double gpa;
