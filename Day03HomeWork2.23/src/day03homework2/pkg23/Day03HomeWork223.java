@@ -25,10 +25,10 @@ public class Day03HomeWork223 {
         if (asciiCode < 0 || asciiCode > 127){
             System.out.println("Plese enter a number between 0 and 127");
             System.exit(1);
-        } else {
-        char asciiChar = (char)asciiCode;
-        System.out.println("The character is " + asciiChar); 
         }
+        char asciiChar = (char)asciiCode;
+        System.out.printf("The character is %c\n", asciiChar); 
+        
     }
     
 }
