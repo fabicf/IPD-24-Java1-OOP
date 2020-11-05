@@ -16,18 +16,43 @@ public class Day04HomeWork418 {
      */
     public static void main(String[] args) {
         // Display four patterns using loops
-     
-        /*for (int i  = 1; i < 6; i++ ) { // lines (rows)
-            System.out.println("      " + i);
+        final int HEIGHT = 6;
+        // Pattern A
+        for (int i = 0; i <= HEIGHT; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.printf("%d ", j);               
+            }
+            System.out.println();
         }
-    for ( ) { // spaces on the left - Pattern B
-	}
-    for ( ) { // left side - Pattern C
-	}
-	for ( ) { // right side - Pattern A
-	}*/
-         
-    
+        //Pattern B
+        System.out.println("====================");
+        for (int i = HEIGHT; i > 0; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.printf("%d ", j);  
+            }
+            System.out.println();
+        }
+        // copiar pattern b versao 2
+        
+        
+        
+        //Patern C - 
+        System.out.println("=============");
+        for (int i = 1; i <= HEIGHT; i++) {
+            //print space first (same as pattern b - versao 2)
+            for (int j = 1; j <= HEIGHT - i; j++) {
+                System.out.printf("__");
+            }
+            //print numbers
+            for (int j = 1; j <= i; i++) {
+                for (int k = 0; k < 10; k++) {
+                    
+                }
+                
+            }
+            System.out.println();
+        }
+        
 }
     
 }

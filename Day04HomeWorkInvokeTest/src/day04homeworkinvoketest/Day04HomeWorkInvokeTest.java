@@ -13,17 +13,19 @@ public class Day04HomeWorkInvokeTest {
     
     
     
-    public static double DoubleX(double x) {
-        double result = x * 2;
-        return result;
+    public static int sum(int i1, int i2) {
+        int sum = 0;
+        for (int i = i1; i<=i2; i++)
+            sum = sum + i;
+        return sum;
     }
     
     
     
     public static void main(String[] args) {
-        double value = DoubleX(2.0);
-        System.out.println(value);
-        System.out.println(DoubleX(12.0));
+        System.out.println("Sum from 1 to 5 is: " + sum(1,5));
+        System.out.println("Sum from 1 to 5 is: " + sum(1,10));
+
     }
     
 }
