@@ -38,12 +38,13 @@ public class Day05PrepQuiz2NamesArray1 {
         Scanner input = new Scanner(System.in);        
         String[] yourFriends = new String [4];
                 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < yourFriends.length; i++) {
             System.out.print("Enter friend's name: ");
             yourFriends[i] = input.nextLine();
+            
         }
         
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < yourFriends.length; i++) {
             System.out.println("Friend #" + (i+1) + ": " + yourFriends[i]);
         }
     }
