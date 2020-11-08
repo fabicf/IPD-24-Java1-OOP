@@ -59,7 +59,13 @@ public class StudyingByMyselfTestFile {
         
         System.out.println("Password is: " + password.equals(passwordEntered));
         
-        
+        if (password.equals(passwordEntered)){
+            System.out.println("your password is correct");
+        } else if ("alternative".equals(passwordEntered)){
+            System.out.println("alternative password");
+        } else {
+            System.out.println("your password is false");
+        }
 
 
 
