@@ -49,7 +49,7 @@ public class Day07Homework615 {
      
     public static void main(String[] args) {
         // TODO code application logic here
-
+        /* array took from input
         Scanner input = new Scanner(System.in);
 
         int numbersArray[] = new int[10];
@@ -62,7 +62,8 @@ public class Day07Homework615 {
         
         for (i = 0; i < 10; i++) {
             System.out.printf("%d, ", numbersArray[i]);   
-        }
+        }*/
+        int numbersArray[] = {1, 2, 3, 2, 4, 3, 7, 8, 4, 5};
         
         int uniqueOnly[] = eliminateDuplicate(numbersArray);
         
