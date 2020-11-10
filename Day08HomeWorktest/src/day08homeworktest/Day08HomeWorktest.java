@@ -3,19 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day07homework6.pkg8;
+package day08homeworktest;
 
 /**
  *
  * @author 15144
  */
-public class Day07HomeWork68 {
+public class Day08HomeWorktest {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int intlist[] = {1, 3};
+        for (int i : intlist) {
+            System.out.println(i);
+        }
+        
+        String stringArray[] = {  "1", "3" };
+        for (String i : stringArray) {
+            
+        }
     }
     
 }
