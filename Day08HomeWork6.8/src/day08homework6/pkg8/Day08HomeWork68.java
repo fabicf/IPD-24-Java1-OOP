@@ -21,7 +21,7 @@ public class Day08HomeWork68 {
     
     static double average(double[] data){
     double sum = 0;
-        for (double n : data) {
+        for (double n : data) { //mesmo que: for(int n = 0; n < data.lenght; n++) { sum += data[n] }
             sum += n;
         }
         return sum / data.length;
@@ -29,13 +29,14 @@ public class Day08HomeWork68 {
             
     public static void main(String[] args) {
         // TODO code application logic here
-        int[] dataInts = {22, 78, 234};
-        double [] dataDouble = {56.3, 34.333, 45.11};
+        int[] dataInts = {10, 15, 20};
+        double [] dataDouble = {10.1, 10.5, 10.9};
         
         int avgInts = average(dataInts);
         double avgDouble = average(dataDouble);
         
-        // to be finish
+        System.out.println(avgInts);
+        System.out.println(avgDouble);
     }
     
 }

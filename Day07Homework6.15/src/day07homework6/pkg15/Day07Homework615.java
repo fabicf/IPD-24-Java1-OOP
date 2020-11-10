@@ -71,6 +71,7 @@ public class Day07Homework615 {
         for (int n : uniqueOnly) {
             System.out.print(n + ", ");
         }
+        System.out.println();
     }
 
 }
