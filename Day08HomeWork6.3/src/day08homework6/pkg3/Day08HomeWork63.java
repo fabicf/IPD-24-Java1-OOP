@@ -22,8 +22,8 @@ public class Day08HomeWork63 {
         //keep repeating unitl user enters 0,
         //after that go over frequencies array, find all non-zero values and display them
 
-        int[] frequences = new int[100];
-        int count = 0;
+        int[] frequences = new int[101];
+        
         Scanner input = new Scanner(System.in);
 
         while (true) {
@@ -33,21 +33,20 @@ public class Day08HomeWork63 {
                 break;
             }
             //adding values to frequence array:
-            for (int i = 0; i < 100; i++) {
-                frequences[i] = value;
-            }
+            frequences[value] = frequences[value] + 1;
+            
         }
             for (int i = 0; i < frequences.length; i++) {
-                for (int j = 0; j < 100; j++) {
-                    if (frequences[i] == frequences[j]) {
-                        count++;
-                    }
-                    System.out.println(frequences[i] + " occurs " + count + "times");        
+                int count = frequences[i];
+                if (count == 0){
+                continue;}
+                
+                    System.out.println("number" + i + " was entered " + count + " times");        
                 }
-                System.out.println();    
+                    
             }
-
+// to be finished
         
-    }
+    
 
 }
